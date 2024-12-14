@@ -3,20 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="k5vFKOOPaYmhn6z8KJiyqfd5lVCR2MDZ-8UYgoeQAM0" />
-    <title>Código Infinito</title>
-</head>
-<body>
-    <h1>Hola, este es el blog de código infinito</h1>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-47PZ4K0ZCC"></script>
-  <script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="google-site-verification" content="k5vFKOOPaYmhn6z8KJiyqfd5lVCR2MDZ-8UYgoeQAM0"/>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-47PZ4K0ZCC" defer></script>
+    <script defer>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config',   
     'G-47PZ4K0ZCC');
-  </script>
-    
+    </script>
+    <title>Web HLC</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#inicio" class="logo">
+                <img src="images/logoHLC.png" alt="Mochilas para Bebés" />
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Descubre nuestras ofertas en mochilas portabebés</h2>
+            <img src="images/mochilaPorteo.png" alt="Mochilas para Bebés"/></br>
+            <a href="#productos" class="cta-btn">Ver Productos</a>
+        </div>
+    </section>
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Beneficios de las Mochilas portabebés</h2>
+            <img src="images/1.jpg"></img></br></br>
+            <div class="beneficio-item">
+                <h3>Comodidad, Seguridad, Practicidad</h3>
+                <p>Diseñadas para ofrecer la máxima comodidad tanto al bebé como a los padres.</p>
+            </div>
+        </div>
+    </section>
+    <img id="banner" src="images/banner-ergobaby-marca.jpg"></img>
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="images/babybjorn-mochila-porta-bebe-move-antracita-3d.png" alt="Mochila 1">
+                <h3>Modelo Antracita</h3>
+                <p>Comfort y soporte durante todo el día. Ideal para bebés de 0 a 18 meses.</p></br>
+                <a href="ficha.html" class="cta-btn">Ficha producto</a>
+            </div>
+            <div class="producto">
+                <img src="images/babybjorn-mochila-porta-bebe-move-azul-marino-3d.png" alt="Mochila 2">
+                <h3>Modelo Azul Marino</h3>
+                <p>Diseño ergonómico para un ajuste perfecto. Adecuada para actividades al aire libre.</p></br>
+                <a href="ficha.html" class="cta-btn">Ficha producto</a>
+            </div>
+            <div class="producto">
+                <img src="images/babybjorn-mochila-porta-bebe-move-gris-beige-3d.jpg" alt="Mochila 3">
+                <h3>Modelo Beige</h3>
+                <p>Materiales de alta calidad para una experiencia segura y cómoda.</p></br>
+                <a href="ficha.html" class="cta-btn">Ficha producto</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <textarea placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="cta-btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Web HLC. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,332 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background: #0067b8;
+    padding: 20px 0;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+header .logo img:hover {
+    transform: scale(1.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    transform: scale(1.1);
+    color: #ef08eb;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/pattern.jpg');
+    color: #0067b8;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .cta-btn {
+    background: #0067b8;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .cta-btn:hover {
+    background: #0056a0;
+}
+
+/* Banner */
+#banner {
+    height: 600px;
+}
+
+/* Beneficios Section */
+.beneficios {
+    padding: 60px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.beneficio-item {
+    margin-bottom: 30px;
+}
+
+.beneficio-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.beneficio-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Productos Section */
+.productos {
+    padding: 60px 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.producto {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px 30px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto img:hover {
+    transform: scale(1.1);
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.producto p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.producto .cta-btn {
+    background: #0067b8;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.producto .cta-btn:hover {
+    background: #0056a0;
+}
+
+.ficha-producto {
+    padding: 50px 0;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%;
+    
+}
+
+.ficha-producto h2 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.producto-detalle {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.producto-detalle img:hover{
+    transform: scale(1.1);
+}
+
+.descripcion-producto {
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+.descripcion-producto h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.descripcion-producto p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #555;
+}
+
+.producto-detalle img{
+    max-width: 30%;
+    margin-left: 300px;
+}
+
+.descripcion-producto p strong {
+    color: #0056a0;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #0056a0;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #004988;
+}
+
+/* Contacto Section */
+.contacto {
+    padding: 60px 20px;
+    background: #fcda62;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form input,
+.contacto form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto form button {
+    padding: 12px 25px;
+    background: #0067b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contacto form button:hover {
+    background: #0056a0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .producto-detalle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto-img {
+        max-width: 80%;
+    }
+}
